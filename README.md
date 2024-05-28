@@ -1,7 +1,10 @@
-# Nbaffinity a machine learning tool to predict nanobody affinity
+# Nbaffinity: a machine learning tool to predict nanobody affinity
+
+This is a nanoantibody affinity prediction tool based on a machine learning approach that relies mainly on non-covalent interaction data of single chain protein in a protein complex.
 
 GitHub Repository for [https://github.com/greenGM/Nbaffinity](https://github.com/greenGM/Nbaffinity)
 
+You can use this tool directly at： [http://www.peptide-ligand.cn/en/](http://www.peptide-ligand.cn/en/)
 
 [![Repository](https://img.shields.io/badge/View%20on-GitHub-blue.svg)](https://github.com/greenGM/Nbaffinity)
 
