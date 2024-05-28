@@ -63,16 +63,16 @@ GitHub Repository for [https://github.com/greenGM/Nbaffinity](https://github.com
                                   preclass=predict(TdataSW.roF1,unknownS),#Give the class of affinity of the candidate nanobody
                                   preprob=predict(TdataSW.roF1,unknownS,type = 'prob' ))#Give the probability of the class
                                   
-  write.csv(unknownprediction,'unknownprediction.csv')
+     write.csv(unknownprediction,'unknownprediction.csv')
   
 
 ## Result explanation：
 The result will be returned as a csv file.
 
-   name--the name of the candidate nanobody.
+     name--the name of the candidate nanobody.
 
-  preclass--predicted class: Y represents MIC < 2000 and N represents MIC ≥ 2000.
+     preclass--predicted class: Y represents MIC < 2000 and N represents MIC ≥ 2000.
 
-   preprob.N preprob.--the probability of the class 
+     preprob.N preprob.--the probability of the class 
 
 
