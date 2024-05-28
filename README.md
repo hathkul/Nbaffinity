@@ -47,19 +47,19 @@ GitHub Repository for [https://github.com/greenGM/Nbaffinity](https://github.com
 
 3. Enter the following code：
    
-  R
+     R
    
-  load(".RData")
+     load(".RData")
   
-  library(tidyverse)
+     library(tidyverse)
   
-  library(caret)
+     library(caret)
   
-  unknown <- read.csv("yourfile.csv",header = F,col.names = name)#Dependent on your data
+     unknown <- read.csv("yourfile.csv",header = F,col.names = name)#Dependent on your data
   
-  unknownS <- scale(unknown[,-1])
+     unknownS <- scale(unknown[,-1])
   
-  unknownprediction <- data.frame(name=unknown$name,
+     unknownprediction <- data.frame(name=unknown$name,
                                   preclass=predict(TdataSW.roF1,unknownS),#Give the class of affinity of the candidate nanobody
                                   preprob=predict(TdataSW.roF1,unknownS,type = 'prob' ))#Give the probability of the class
                                   
@@ -69,10 +69,10 @@ GitHub Repository for [https://github.com/greenGM/Nbaffinity](https://github.com
 ## Result explanation：
 The result will be returned as a csv file.
 
-name--the name of the candidate nanobody.
+   name--the name of the candidate nanobody.
 
-preclass--predicted class: Y represents MIC < 2000 and N represents MIC ≥ 2000.
+  preclass--predicted class: Y represents MIC < 2000 and N represents MIC ≥ 2000.
 
-preprob.N	preprob.--the probability of the class 
+   preprob.N preprob.--the probability of the class 
 
 
