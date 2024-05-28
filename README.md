@@ -60,7 +60,9 @@ GitHub Repository for [https://github.com/greenGM/Nbaffinity](https://github.com
      unknownS <- scale(unknown[,-1])
   
      unknownprediction <- data.frame(name=unknown$name,
+   
                                   preclass=predict(TdataSW.roF1,unknownS),#Give the class of affinity of the candidate nanobody
+   
                                   preprob=predict(TdataSW.roF1,unknownS,type = 'prob' ))#Give the probability of the class
                                   
      write.csv(unknownprediction,'unknownprediction.csv')
