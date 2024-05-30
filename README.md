@@ -58,7 +58,7 @@ You can use this tool directly at： [http://www.peptide-ligand.cn/en/](http://w
   
      library(caret)
   
-     unknown <- read.csv("yourfile.csv",header = F,col.names = name)#Dependent on your data
+     unknown <- read.csv("yourfile.csv",header = F,col.names = name)#Import your data
   
      unknownS <- scale(unknown[,-1])
   
