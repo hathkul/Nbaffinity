@@ -60,7 +60,7 @@ You can use this tool directly at： [http://www.peptide-ligand.cn/en/](http://w
   
      unknown <- read.csv("yourfile.csv",header = F,col.names = name)#Import your data;
    
-     Note: the first column of your data should start from "HI_ std", and not be the name of the protein
+     (Note: the first column of your data should start from "HI_ std", and not be the name of the protein)
   
      unknownS <-  predict(preprocessParams, unknown)
   
@@ -73,7 +73,7 @@ You can use this tool directly at： [http://www.peptide-ligand.cn/en/](http://w
      write.csv(unknownprediction,'unknownprediction.csv')
    
 
-     Note: Please adjust the above code to suit your needs
+     (Note: Please adjust the above code to suit your needs)
 
 ## Result explanation：
 The result will be returned as a csv file.
