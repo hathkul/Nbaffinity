@@ -59,7 +59,7 @@ You can use this tool directly at： [http://www.peptide-ligand.cn/en/](http://w
   
      library(caret)
   
-     unknown <- read.csv("yourfile.csv",header = F,col.names = name)#Import your data, better without column name.
+     unknown <- read.csv("yourfile.csv",header = F,col.names = name)#Import your data; better without column name, if you have, please set "header = T".
    
      (Note: the first column of your data should start from "HI_ std" score, not be the protein's name.)
   
