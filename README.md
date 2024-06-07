@@ -9,11 +9,11 @@ You can use this tool directly at： [http://www.peptide-ligand.cn/en/](http://w
 [![Repository](https://img.shields.io/badge/View%20on-GitHub-blue.svg)](https://github.com/greenGM/Nbaffinity)
 
 ## Dependencies:
- |     Name      | version            |
- | ------------- | ------------------ |
- | R             | 4.3.3 or higher    |
- | tidyverse     | 2.0.0 or higher    |
- | caret         | 6.0-94 or higher   |
+    |     Name      | version            |
+    | ------------- | ------------------ |
+    | R             | 4.3.3 or higher    |
+    | tidyverse     | 2.0.0 or higher    |
+    | caret         | 6.0-94 or higher   |
 
 
 ## data genereation 
