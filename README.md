@@ -59,6 +59,7 @@ You can use this tool directly at： [http://www.peptide-ligand.cn/en/](http://w
      library(caret)
   
      unknown <- read.csv("yourfile.csv",header = F,col.names = name)#Import your data;
+   
      Note: the first column of your data should start from "HI_ std", and not be the name of the protein
   
      unknownS <-  predict(preprocessParams, unknown)
