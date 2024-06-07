@@ -73,7 +73,7 @@ You can use this tool directly at： [http://www.peptide-ligand.cn/en/](http://w
      write.csv(unknownprediction,'unknownprediction.csv')
    
 
-     (Note: Please adjust the above code to suit your needs)
+     (Note: Please adjust the above code to suit your needs.)
 
 ## Result explanation：
 The result will be returned as a csv file.
@@ -82,6 +82,6 @@ The result will be returned as a csv file.
 
      preclass--predicted class: Y represents MIC < 2000 and N represents MIC ≥ 2000.
 
-     preprob.N preprob.--the probability of the class 
+     preprob.N preprob.--the probability of the class. 
 
 
