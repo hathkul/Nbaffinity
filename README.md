@@ -23,7 +23,8 @@ You can use this tool directly at： [http://www.peptide-ligand.cn/en/](http://w
 
     [https://github.com/maxibor/protinter](https://github.com/maxibor/protinter) [![Repository](https://img.shields.io/badge/View%20on-GitHub-blue.svg)](https://github.com/maxibor/protinter)
 
-2. All descriptors needs to be generated and fed into the model in the following order
+2. All descriptors needs to be generated and fed into the model in the following order:
+   
    HI_ std, HI_ min, HI_ 0.5, HBMS_ count, HBMS_ mean, HBMS_ std, HBMS_ min, HBMS_ max, ASI_ count, ASI_ std,
    ASI_ min, HBSS_ count, HBSS_ std, HBSS_ min, DB_ count, DB_ std, DB_ 0.5, IoInt_ count, IoInt_ std, IoInt_ min,
    IoInt_ 0.25, HBMM_ count, HBMM_ mean, HBMM_ std, HBMM_ min, HBMM_ 0.25, HBMM_ 0.5, HBMM_ 0.75, HBMM_ max,  CPI_ count,
