@@ -58,18 +58,21 @@ You can use this tool directly at： [http://www.peptide-ligand.cn/en/](http://w
   
      library(caret)
   
-     unknown <- read.csv("yourfile.csv",header = F,col.names = name)#Import your data
+     unknown <- read.csv("yourfile.csv",header = F,col.names = name)#Import your data;
+     # Note: the first column of your data should start from "HI_ std", and not be the name of the protein
   
-     unknownS <- scale(unknown[,-1])
+     unknownS <-  predict(preprocessParams, unknown)
   
-     unknownprediction <- data.frame(name=unknown$name,
+     unknownprediction <- data.frame(name=unknown$youproteinname, #the name of your protein, if you have.
    
                                   preclass=predict(TdataSW.roF1,unknownS),#Give the class of affinity of the candidate nanobody
    
                                   preprob=predict(TdataSW.roF1,unknownS,type = 'prob' ))#Give the probability of the class
                                   
      write.csv(unknownprediction,'unknownprediction.csv')
-  
+   
+
+     # Note: Please adjust the above code to suit your needs
 
 ## Result explanation：
 The result will be returned as a csv file.
